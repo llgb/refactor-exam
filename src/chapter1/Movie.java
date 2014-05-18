@@ -5,6 +5,7 @@ public class Movie {
     public static final int NEW_RELEASE = 1;
     private String title;
     private int priceCode;
+    private Price price;
     public Movie(String newtitle, int newpriceCode) {
         title = newtitle;
         setPriceCode(newpriceCode);
@@ -20,7 +21,7 @@ public class Movie {
     }
 	double getCharge(int daysRented) {
 		double result = 0;
-		switch (getPriceCode()) {
+		switch (priceCode) {
 		    case Movie.REGULAR:
 		    	result += 2;
 		    	if (daysRented > 2)
