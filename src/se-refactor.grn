@@ -1,0 +1,32 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=se-refactor/src<chapter1{Program.java[Program"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=se-refactor/src<chapter1{Rental.java[Rental"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="65"/>
+   </type>
+   <type>
+      <name="=se-refactor/src<chapter1{Customer.java[Customer"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="1"/>
+      <y="192"/>
+   </type>
+   <type>
+      <name="=se-refactor/src<chapter1{Movie.java[Movie"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="292"/>
+      <y="22"/>
+   </type>
+</uml>
+
