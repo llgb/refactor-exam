@@ -6,10 +6,6 @@ public abstract class Price {
 	abstract double getCharge(int daysRented);
 
 	public int getFrequentRenterPoints(int daysRented) {
-		
-		if ((getPriceCode() == Movie.NEW_RELEASE) && daysRented > 1) 
-		return 2;
-		else
 			return 1;
 	}
 }
@@ -24,6 +20,11 @@ class ChildrensPrice extends Price {
 		result += (daysRented - 3) * 1.5;
 		return result;
 }
+	public int getFrequentRenterPoints(int daysRented){
+				if (daysRented > 1)
+				    return 2;
+				return 1;
+			}
 }
 
 class NewReleasePrice extends Price {
